@@ -1,21 +1,68 @@
 html {
   color: #eee;
   font-size: 1em;
-  line-height: 1.4; }
+  line-height: 1.4;
+}
 
 body {
-  height: 100%; }
+  height: 100%;
+}
 
 img {
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 header {
-  height: 50px;
+  height: 70px;
   left: 0px;
   position: fixed;
   top: 0px;
   width: 100%;
-  z-index: 2; }
+  z-index: 2;
+}
+
+#social {
+  margin: 10px;
+  text-align: center;
+  display: block;
+  float: right;
+  padding: 0;
+  font-size: 12px;
+}
+
+#social li {
+  margin: 0 5px;
+  padding: 0;
+  list-style: none;
+  background-size: cover;
+}
+
+#social li, #social a {
+  width: 50px;
+  height: 50px;
+  display: block;
+  float: left;
+}
+
+#facebook {
+  background-image: url(../img/facebook.svg);
+}
+
+#twitter {
+  background-image: url(../img/twitter.svg);
+}
+
+#linkedin {
+  background-image: url(../img/linkedin.svg);
+}
+
+#github {
+  background-image: url(../img/github.svg);
+}
+
+#email {
+  background-image: url(../img/email.svg);
+}
 
 .stars, .twinkling {
   bottom: 0;
@@ -25,52 +72,46 @@ header {
   position: absolute;
   right: 0;
   top: 0;
-  width: 100%; }
+  width: 100%;
+}
 
 .stars {
   background: #000 url(../img/stars.png) repeat top center;
-  z-index: 0; }
+  z-index: 0;
+}
 
 @keyframes move-twink-back {
   from {
-    background-position: 0 0; }
+    background-position: 0 0;
+  }
   to {
-    background-position: -10000px 5000px; } }
+    background-position: -10000px 5000px;
+  }
+}
 
 @-webkit-keyframes move-twink-back {
   from {
-    background-position: 0 0; }
+    background-position: 0 0;
+  }
   to {
-    background-position: -10000px 5000px; } }
-
-@-moz-keyframes move-twink-back {
-  from {
-    background-position: 0 0; }
-  to {
-    background-position: -10000px 5000px; } }
-
-@-ms-keyframes move-twink-back {
-  from {
-    background-position: 0 0; }
-  to {
-    background-position: -10000px 5000px; } }
+    background-position: -10000px 5000px;
+  }
+}
 
 .twinkling {
   background: transparent url(../img/twinkling.png) repeat top center;
-  -moz-animation: move-twink-back 200s linear infinite;
-  -ms-animation: move-twink-back 200s linear infinite;
-  -o-animation: move-twink-back 200s linear infinite;
   -webkit-animation: move-twink-back 200s linear infinite;
-  animation: move-twink-back 200s linear infinite;
-  z-index: 1; }
+          animation: move-twink-back 200s linear infinite;
+  z-index: 1;
+}
 
 footer {
-  background: transparent url("../img/earth.jpg") no-repeat;
+  background: transparent url(../img/earth.jpg) no-repeat center center;
   background-size: cover;
-  background-position: center center;
   bottom: 0px;
   left: 0px;
   padding-bottom: 14.843%;
   position: fixed;
   width: 100%;
-  z-index: 2; }
+  z-index: 2;
+}
