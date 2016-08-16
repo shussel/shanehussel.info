@@ -6,8 +6,8 @@
 	.st0{fill:#FFFFFF;}
 	.st1{fill:#D92738;}
 </style>
-<circle class="st0" cx="25" cy="25" r="24"/>
-<circle class="st1" cx="25" cy="25" r="25"/>
+<circle class="st0" cx="25" cy="25" r="22"/>
+<circle class="st1" cx="25" cy="25" r="23.5"/>
 <g>
 	<path class="st0" d="M35,32L35,32L35,32L35,32L35,32z M28.9,25l6.1,6.4V18.6L28.9,25L28.9,25z M25,27.9l9.4-9.9H15.6L25,27.9
 		L25,27.9z M21.1,25L15,18.6v12.7L21.1,25L21.1,25z M15,32L15,32L15,32L15,32L15,32z M25,29.1l-3.3-3.5L15.6,32h18.8l-6.1-6.4
