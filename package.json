@@ -1,0 +1,24 @@
+{
+  "name": "shanehussel.info",
+  "version": "1.0.0",
+  "description": "Tech demo site for Shane Hussel",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shussel/shanehussel.info.git"
+  },
+  "author": "Shane Hussel",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/shussel/shanehussel.info/issues"
+  },
+  "homepage": "https://github.com/shussel/shanehussel.info#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
