@@ -1,0 +1,112 @@
+body {
+	font-family: 'Merriweather', serif;
+}
+
+#home-button {
+	display: block;
+	float: left;
+	height: 60px;
+	width: 60px;
+	background-image: url(../img/earth.png);
+}
+
+main {
+	position: relative;
+	top: 20px;
+	width: 80%;
+	max-width: 790px;
+	background-color: #fff;
+	color: #000;
+	z-index: 4;
+	margin: 0 auto 20px auto;
+	padding: 2em;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+h1, h2, h3 {
+	font-family: 'Merriweather', serif;
+	font-weight: normal;
+}
+
+h1 {
+	margin: 0;	
+}
+
+h2 {
+	border-bottom: 1px solid purple;
+}
+
+h3 {
+	float: left;
+	margin-top: 0;	
+	margin-left: 10px;
+	small {
+		display: block;
+		color: #666;
+	}
+}
+
+time {
+	float: right;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+	color: #555;
+}
+
+ul {
+	clear: both;
+	margin-bottom: 25px;	
+}
+
+ul.inline {
+	margin-left: 80px;
+	clear: none;
+	li {
+		display: inline;
+		white-space: nowrap;
+		margin-left: 3px;
+	}
+}
+
+ul.inline + h3 {
+	clear: both;
+}
+
+li {
+	list-style-type: none;
+	background:transparent url(../img/diamond.png) no-repeat left 4px;
+	padding-left: 18px;
+
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clear {
+	clear: both;
+}
+
+@media only screen and (max-width: 35em) {
+    time {
+		clear: left;
+		float: left;
+		margin: -10px 0 15px 10px;
+    }
+}
+
+@media only screen and (max-width: 61em) {
+    main {
+		top: 70px;
+    }
+}
